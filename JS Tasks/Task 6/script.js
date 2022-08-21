@@ -19,3 +19,16 @@ const users = [
   { id: '8', name: 'Simon Peterson', age: 30 },
   { id: '9', name: 'Daniel Cane', age: 51 },
 ];
+
+// ================= 1
+const getUserAverageAge = users.reduce((totalAge, uObj) => totalAge + uObj.age, 0) / users.length;
+console.log('users masyvo amziaus vidurkis:', getUserAverageAge.toFixed(2));
+
+// ====================2
+
+function  getUsersNames(arr, prop) {
+  let usersNames = arr.map(item => item[prop]);
+  return usersNames;
+}
+const rezult = getUsersNames(users, 'name');
+console.log('Users masyvo objektu vardai:', rezult);
