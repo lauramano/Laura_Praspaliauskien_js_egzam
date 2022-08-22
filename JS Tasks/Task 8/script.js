@@ -32,3 +32,4 @@ const sk2 = new Calculator(49, 15);
 // console.log(`${sk1} ${sk1.sum}`);
 console.log(`a reiksme: ${sk1.a} b reiksme: ${sk1.b} suma ${sk1.sum()} skirtumas ${sk1.subtraction()} daugyba :${sk1.multiplication()} dalyba ${sk1.division().toFixed(2)}`);
 console.log(`a reiksme: ${sk2.a} b reiksme: ${sk2.b} suma ${sk2.sum()} skirtumas ${sk2.subtraction()} daugyba :${sk2.multiplication()} dalyba ${sk2.division().toFixed(2)}`);
+console.log(sk1);
